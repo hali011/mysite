@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>آزمایشگاه کامل CSS - کارت قهرمانان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="support-btn">💬 راهنمای بازی</button>
+
+  <h1 class="main-title">قهرمانان کهکشان</h1>
+
+  <div class="cards-container">
+
+    <div class="card">
+      <span class="badge">ویژه 🔥</span>
+      
+      <div class="avatar">🧙‍♂️</div>
+      <h2 class="hero-name">جادوگر آتشین</h2>
+      
+      <!-- جعبه متن طولانی برای آموزش overflow -->
+      <div class="bio-box">
+        این قهرمان قدرت پرتاب گوی‌های آتشین را دارد و می‌تواند در تاریکی شب پرواز کند. اگر متن این جعبه خیلی طولانی شود، از کادر بیرون می‌زند و می‌توانیم با ویژگی overflow آن را کنترل یا اسکرول‌دار کنیم!
+      </div>
+
+      <button class="btn-buy">انتخاب قهرمان</button>
+    </div>
+
+    <!-- کارت دوم: نینجا (دارای کلاس مخصوص برای تست background-image) -->
+    <div class="card bg-image-card">
+      <span class="badge">جدید ⚡</span>
+      
+      <div class="avatar">🥷</div>
+      <h2 class="hero-name">نینجای سایه</h2>
+      
+      <div class="bio-box">
+        سرعت بسیار بالا در حرکت، قابلیت غیب شدن در سایه‌ها و استفاده از شمشیرهای نوری. این کارت یک عکس واقعی در پس‌زمینه خود دارد که با ویژگی‌های background تنظیم شده است.
+      </div>
+
+      <button class="btn-buy">انتخاب قهرمان</button>
+    </div>
+
+    <!-- کارت سوم: ربات (دارای دکمه قفل برای تست cursor: not-allowed) -->
+    <div class="card">
+      <span class="badge">قفل 🔒</span>
+      
+      <div class="avatar">🤖</div>
+      <h2 class="hero-name">ربات تیتانیومی</h2>
+      
+      <div class="bio-box">
+        مجهز به زره ضدضربه، سپر مغناطیسی و رادار فضایی. برای باز کردن این قهرمان باید مراحل قبلی بازی را تمام کنید.
+      </div>
+
+      <button class="btn-locked">قفل شده است</button>
+    </div>
+
+    <!-- کارت چهارم: کارت مخفی برای تست display: none -->
+    <div class="card secret-card">
+      <div class="avatar">👻</div>
+      <h2 class="hero-name">شبح نامرئی</h2>
+      <div class="bio-box">این کارت با دستور display: none کاملاً غیب می‌شود!</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
